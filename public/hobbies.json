@@ -1,0 +1,26 @@
+[
+    {
+        "id": "dogs",
+        "title": "Perros",
+        "description": "Me encanta pasar tiempo con perros, jugar con ellos y aprender sobre diferentes razas. Disfruto sacarlos a pasear y cuidarlos.",
+        "img": "https://images.unsplash.com/photo-1518717758536-85ae29035b6d"
+    },
+    {
+        "id": "anime",
+        "title": "Anime",
+        "description": "Soy fan del anime desde hace años. Me gusta ver series de distintos géneros y compartir recomendaciones con amigos.",
+        "img": "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
+    },
+    {
+        "id": "cinema",
+        "title": "Cine",
+        "description": "Disfruto ver películas de todo tipo, especialmente ciencia ficción y drama. Me gusta analizar las historias y la cinematografía.",
+        "img": "https://images.unsplash.com/photo-1464983953574-0892a716854b"
+    },
+    {
+        "id": "programing",
+        "title": "Programacion",
+        "description": "La programación es una de mis grandes pasiones. Me gusta aprender nuevos lenguajes, frameworks y crear proyectos propios.",
+        "img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Billie Jean",
+        "album": "Thriller",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
+        "duration": 294,
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "title": "Like a Virgin",
+        "album": "Like a Virgin",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/0/0c/LikeAVirgin1984.png",
+        "duration": 221,
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "title": "Sweet Child o' Mine",
+        "album": "Appetite for Destruction",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg",
+        "duration": 356,
+        "rating": 5
+    },
+    {
+        "id": 4,
+        "title": "Every Breath You Take",
+        "album": "Synchronicity",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/1/1b/The_Police_-_Synchronicity.png",
+        "duration": 258,
+        "rating": 4
+    },
+    {
+        "id": 5,
+        "title": "Take On Me",
+        "album": "Hunting High and Low",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/0/0a/A-ha_-_Hunting_High_and_Low.png",
+        "duration": 225,
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "title": "Girls Just Want to Have Fun",
+        "album": "She's So Unusual",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/6/6a/Cyndi_Lauper_-_She%27s_So_Unusual.png",
+        "duration": 239,
+        "rating": 4
+    },
+    {
+        "id": 7,
+        "title": "Livin' on a Prayer",
+        "album": "Slippery When Wet",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/2/2e/Bon_Jovi_-_Slippery_When_Wet.png",
+        "duration": 250,
+        "rating": 5
+    },
+    {
+        "id": 8,
+        "title": "Wake Me Up Before You Go-Go",
+        "album": "Make It Big",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/7/7c/WhamMakeItBigalbumcover.jpg",
+        "duration": 211,
+        "rating": 4
+    },
+    {
+        "id": 9,
+        "title": "With or Without You",
+        "album": "The Joshua Tree",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/9/9c/U2_The_Joshua_Tree.png",
+        "duration": 296,
+        "rating": 5
+    },
+    {
+        "id": 10,
+        "title": "Eye of the Tiger",
+        "album": "Eye of the Tiger",
+        "imageAlbum": "https://upload.wikimedia.org/wikipedia/en/9/9f/Survivor_Eye_of_the_Tiger_album_cover.jpg",
+        "duration": 245,
+        "rating": 4
+    }
+]

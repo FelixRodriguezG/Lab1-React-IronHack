@@ -1,0 +1,29 @@
+.list{
+    display: flex;
+    gap: 1rem;
+
+    .link{
+                
+                transition: all 0.3s ease; /* Suaviza las transiciones */
+                
+                &:visited {
+                    color: #3aafb7;
+                }
+
+                &:hover {
+                    color: #4076ff;
+                    text-decoration: underline;
+                }
+
+                &:active {
+                    color: #261260;
+                }
+            }
+    
+   
+}
+
+.title_h3{
+     margin-top: 1rem;
+    font-size: 1.3rem;
+}

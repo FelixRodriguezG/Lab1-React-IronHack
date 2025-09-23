@@ -1,0 +1,44 @@
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
+.grid{
+  margin-block: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 2rem;
+  
+  .card{
+    border: 1px solid whitesmoke;
+    box-shadow: 3px 7px 8px rgba(71, 109, 121, 0.532);
+
+    
+    .figure img {
+      object-fit: cover;
+      width: 100%;
+
+    }
+
+    .caption{
+      padding: 1rem;
+
+      .title { 
+        font-size: 1.05rem;
+        margin: 0; 
+        line-height: 1.25; 
+
+      }
+      .meta{
+        font-size: 12px;
+        display: flex;
+        gap: 2px;
+      }
+
+    }
+  }
+}
+
+.dot { opacity: .5; }
+.status { text-align: center; padding: 2rem; color: #2a889f; }
+.statusError { text-align: center; padding: 2rem; color: #b91c1c; }
