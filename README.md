@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Proyecto AboutMe en React
 
 ## Descripción
@@ -77,6 +76,3 @@ pnpm run dev
 - Estilos CSS para una mejor presentación visual
 - Implementación de enlaces externos funcionales
 - Visualización de imágenes y contenido multimedia
-=======
-# Lab1-React-IronHack
->>>>>>> 4614962807b45f87183d35aed95e2c38a89b9b91

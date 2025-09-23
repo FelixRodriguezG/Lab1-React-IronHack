@@ -1,0 +1,23 @@
+.layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 1rem;
+    top: 0;
+    z-index: 100;
+}
+
+.main {
+    flex: 1;  /* Esto hace que el main ocupe todo el espacio disponible */
+    padding: 2rem 0;
+}
+
+.footer {
+    margin-top: auto;  /* Esto empuja el footer al final */
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #eee;
+}

@@ -39,7 +39,7 @@ function HobbyList() {
     );
 
   return (
-    <section className="container">
+    <section>
       <h2>Mis aficiones</h2>
       <ul className={styles.grid}>
         {hobbies.map((hobby) => (

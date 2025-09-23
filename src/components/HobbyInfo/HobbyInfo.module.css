@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  
+  
+}
+
+.imgContainer {
+    border: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    height: 300px;
+    border-radius: 4px;
+    
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+}

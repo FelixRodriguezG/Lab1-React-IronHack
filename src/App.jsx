@@ -1,16 +1,11 @@
-import AboutMe from "./components/AboutMe/AboutMe.jsx";
-import SongList from "./components/songList";
-import HobbyList from "./components/HobbyList/HobbyList.jsx";
+import { RouterProvider } from "react-router-dom"
+import { router } from "./routes/Router"
 import './App.css'
 
 
 function App() {
   return (
-    <>
-      <AboutMe/>
-      <SongList/>
-      <HobbyList/>
-    </>
+    <RouterProvider router={router} fallbackElement={<p>Initial load...</p>}/>
   );
 }
 
