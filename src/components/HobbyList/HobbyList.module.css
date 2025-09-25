@@ -1,0 +1,17 @@
+.hobbyList {
+    scroll-margin-top: 7rem; /* Añadido para compensar el header */
+}
+
+.grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    list-style: none;
+}
+
+.card {
+    background-color: rgb(43, 14, 129);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}

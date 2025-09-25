@@ -2,12 +2,9 @@ import { useEffect, useState } from "react";
 import HobbyInfo from "../HobbyInfo/HobbyInfo";
 import styles from "./HobbyList.module.css";
 
-
 function HobbyList() {
   const [hobbies, setHobbies] = useState([]);
   const [state, setState] = useState({ loading: true, error: null });
-
-  console.log("hobbies:", hobbies);
 
   useEffect(() => {
     const loadHobbies = async () => {
@@ -39,12 +36,12 @@ function HobbyList() {
     );
 
   return (
-    <section>
+    <section id="hobbies" className={styles.hobbyList}>
       <h2>Mis aficiones</h2>
       <ul className={styles.grid}>
         {hobbies.map((hobby) => (
           <li className={styles.card} key={hobby.id}>
-            <HobbyInfo hobby={hobby} />            
+            <HobbyInfo hobby={hobby} />
           </li>
         ))}
       </ul>

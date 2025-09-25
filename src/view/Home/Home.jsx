@@ -1,14 +1,16 @@
 import { Link } from 'react-router-dom'
-import styles from './Home.module.css'
 import HobbyList from '../../components/HobbyList/HobbyList'
+import AboutMe from '../../components/AboutMe/AboutMe'
+import styles from './Home.module.css'
 
 export default function Home() {
   return (
     <>
-        
-      <h1>Bienvenido a mi Web Personal</h1>
+      <h2 className={styles.welcome}>Bienvenido a mi Web Personal</h2>
+      <div className={styles.infoContainer}>
+      <AboutMe/>
       <HobbyList/>
-      
+      </div>
     </>
   )
 }
