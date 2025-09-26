@@ -36,6 +36,9 @@ export default function Navbar() {
       <Link to="/songs" className={styles.link}>
         Mis Canciones
       </Link>
+      <Link to="/crud" className={styles.link}>
+        CRUD
+      </Link>
       <Link to="/contact" className={styles.link}>
         Contactar
       </Link>

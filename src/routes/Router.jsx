@@ -4,6 +4,7 @@ import Home from "../view/Home/Home";
 import SongList from "../components/SongList/SongList";
 import Contact from "../view/Contact/Contact";
 import NotFound from "../view/NotFound/NotFound";
+import ApiSongCRUD from "../view/ApiCrud/ApiCrud";
 
 export const router = createBrowserRouter([
   {
@@ -11,6 +12,7 @@ export const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/songs", element: <SongList /> },
+      { path: "/crud", element: <ApiSongCRUD /> },
       { path: "/contact", element: <Contact /> },
       { path: "*", element: <NotFound /> },
     ],
